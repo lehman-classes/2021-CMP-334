@@ -5,3 +5,9 @@
 # int y = x + 5;
 #
 
+.data 
+
+.text
+
+li $t0, 20
+addi $t1, $t0, 5
