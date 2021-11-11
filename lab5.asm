@@ -18,7 +18,7 @@
 
 .text
 # int x = 1
-li $t0, 1
+li $t0, 14
 # int y = 0
 addi $t1, $zero, 0
 
