@@ -33,12 +33,12 @@ li $t5, 6
 li $t6, 7
 
 # int x = a + b + c + d + e + f + g;
-add $t7, $t0, $t1
-add $t7, $t7, $t2
-add $t7, $t7, $t3
-add $t7, $t7, $t4
-add $t7, $t7, $t5
-add $t7, $t7, $t6
+add $t7, $t0, $t1 # x = a + b
+add $t7, $t7, $t2 # x = x + c
+add $t7, $t7, $t3 # x = x + d
+add $t7, $t7, $t4 # x = x + e
+add $t7, $t7, $t5 # x = x + f
+add $t7, $t7, $t6 # x = x + g
 
 # printStuff(String text) {
 #   System.out.println(text);
