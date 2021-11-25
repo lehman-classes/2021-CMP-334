@@ -18,6 +18,8 @@ b: .word 2
 c: .word 3
 z: .word 0
 
+# x = a + b + c + d - (2 * z) / 4
+
 prompt: .asciiz "Enter a value for z: "
 result: .asciiz "The result is: "
 nl: .asciiz "\n"
